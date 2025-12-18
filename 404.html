@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أكاديمية القراصنة العرب - خارطة طريق تعلم الأمن السيبراني</title>
+  <script>
+    // GitHub Pages SPA redirect fix
+    // This script takes the current URL and converts it to a query string
+    // that the index.html page can interpret and route correctly
+    (function() {
+      var pathSegmentsToKeep = 1; // For /academy/ subdirectory
+      
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    })();
+  </script>
+</head>
+<body>
+</body>
+</html>

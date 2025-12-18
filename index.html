@@ -25,12 +25,28 @@
   <link rel="icon" type="image/jpeg" href="/academy/logo.jpg" />
   <link rel="apple-touch-icon" href="/academy/logo.jpg" />
   <link rel="shortcut icon" type="image/jpeg" href="/academy/logo.jpg" />
-  <script type="module" crossorigin src="/academy/assets/index-DR9Qioyl.js"></script>
+
+  <!-- GitHub Pages SPA redirect script -->
+  <script>
+    // Single Page Apps for GitHub Pages
+    // https://github.com/rafgraph/spa-github-pages
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+  <script type="module" crossorigin src="/academy/assets/index-QVkdx50X.js"></script>
   <link rel="stylesheet" crossorigin href="/academy/assets/index-BhPYGXCl.css">
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root"></div>
 </body>
 
 </html>
