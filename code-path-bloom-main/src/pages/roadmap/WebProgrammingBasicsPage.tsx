@@ -22,7 +22,7 @@ const WebProgrammingBasicsPage = () => {
     {
       title: 'دورة PHP - المهندس أسامة الزيرو',
       description: 'دورة أساسيات PHP لبرمجة الخوادم وفهم الجانب الخلفي للمواقع.',
-      link: 'https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji',
+      link: 'https://www.youtube.com/watch?v=xcg9qq6SZ0w&list=PLDoPjvoNmBAy41u35AqJUrI-H83DObUDq',
       icon: <Youtube className="w-6 h-6" />,
       type: 'سلسلة يوتيوب',
     },
