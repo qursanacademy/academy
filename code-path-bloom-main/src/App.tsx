@@ -33,6 +33,7 @@ import ActiveDirectoryPage from "./pages/roadmap/ActiveDirectoryPage";
 import MalwareAnalysisPage from "./pages/roadmap/MalwareAnalysisPage";
 import WebsitesPage from "./pages/resources/WebsitesPage";
 import YoutubeChannelsPage from "./pages/resources/YoutubeChannelsPage";
+import ComprehensiveCoursesPage from "./pages/resources/ComprehensiveCoursesPage";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -76,6 +77,7 @@ const App = () => (
           <Route path="/tools/vulnerability-scanners" element={<VulnerabilityScanners />} />
           <Route path="/resources/websites" element={<WebsitesPage />} />
           <Route path="/resources/youtube-channels" element={<YoutubeChannelsPage />} />
+          <Route path="/resources/comprehensive-courses" element={<ComprehensiveCoursesPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

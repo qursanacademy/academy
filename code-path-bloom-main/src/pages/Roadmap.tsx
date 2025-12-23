@@ -75,6 +75,13 @@ const Roadmap = () => {
 
   const usefulResources = [
     {
+      title: 'دورات شاملة',
+      description: 'دورات عربية متكاملة لتعلم الاختراق الأخلاقي واكتشاف الثغرات.',
+      link: '/resources/comprehensive-courses',
+      icon: <Youtube className="w-5 h-5" />,
+      isInternal: true,
+    },
+    {
       title: 'مواقع مفيدة',
       description: 'مجموعة مختارة من المواقع المفيدة في مجال الأمن السيبراني واختبار الاختراق.',
       link: '/resources/websites',
@@ -159,8 +166,8 @@ const Roadmap = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/5 to-transparent" />
         <div className="container mx-auto px-4 relative z-10">
           <SectionTitle
-            title="المستوى المتقدم"
-            subtitle="أتقن تقنيات الهجوم المعقدة، تخصص في مجالات مثل تحليل البرمجيات الخبيثة و Red Teaming."
+            title="Blue Team"
+            subtitle="قسم الفريق الدفاعي في الأمن السيبراني"
             glowColor="purple"
           />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
